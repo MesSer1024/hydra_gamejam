@@ -97,7 +97,7 @@
 		
 		private function onEnterFrame(e:Event):void {
 			if (_gameOver) {
-				
+				_ship.alpha = 0.45;
 				return;
 			}
 			var now:int = getTimer();
